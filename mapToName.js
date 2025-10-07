@@ -1,4 +1,3 @@
-//Map to names
 let john = { name: "John", age: 25 };
 let pete = { name: "Pete", age: 30 };
 let mary = { name: "Mary", age: 28 };
@@ -9,4 +8,4 @@ let names = /* ... your code */
 
 alert( names ); // John, Pete, Mary
 
-//Map to objects
+//Solution 
