@@ -1,4 +1,7 @@
-//Get average age
+function getAverageAge(users) {
+    return users.reduce((prev, user)=> 
+        prev + user.age, 0) / users.length;
+}
 
 let john = { name: "John", age: 25 };
 let pete = { name: "Pete", age: 30 };
