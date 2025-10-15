@@ -7,7 +7,7 @@ let mary = { name: "Mary", surname: "Key", id: 3 };
 let users = [ john, pete, mary ];
 
 let usersMapped = users.map(user => ({
-    fullName: `${user.name} ${user.surname}`, id:usersMapped.id
+    fullName: `${user.name} ${user.surname}`, id: users.id
 }))
 
 /*
